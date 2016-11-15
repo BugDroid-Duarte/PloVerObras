@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bugdroid.ploverobras.DetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="42dp">
+
+            <TextView
+                android:background="@android:color/transparent"
+                android:focusable="false"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="ID da obra:"
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/idtext"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                tools:text="teste"
+                android:paddingLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            >
+
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:focusable="false"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Nome da obra:"
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/obratext" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Nome do cliente :"
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/clientetext" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:inputType="textPersonName"
+                android:text="Data do pedido de levantamento"
+                android:ems="10"
+                android:id="@+id/editText7"
+                android:gravity="center" />
+
+            <TextView
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/dataplevantamento" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:inputType="textPersonName"
+                android:text="Data da realização do levantamento"
+                android:ems="10"
+                android:id="@+id/text"
+                android:gravity="center" />
+
+            <TextView
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/datarlevantamento" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="textPersonName"
+                android:gravity="center"
+                android:background="@drawable/editext_costum"
+                android:ems="10"
+                android:id="@+id/estado"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
